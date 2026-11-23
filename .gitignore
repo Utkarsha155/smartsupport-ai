@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Generated vector index (rebuild with: python ingest.py)
+faiss_index/
+
+# Editor
+.vscode/
